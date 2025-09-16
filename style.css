@@ -18,7 +18,7 @@ body{
     align-items: center;
     justify-content:center ;
 }
-/* Desktop styles */
+
 .container{
     max-width: 50vw;
     background-color: white;
@@ -103,8 +103,9 @@ ol{
 h4{
     color: hsl(14, 50%, 36%);
 }
-
-/* Mobile styles */
+hr{
+    border: 0.5px solid hsl(30, 10%, 80%);
+}
 @media screen and (max-width: 600px) {
     body {
         align-items: flex-start;
